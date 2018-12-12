@@ -6,7 +6,7 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "commonjs",
+    "module": "exnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "declaration": true,
