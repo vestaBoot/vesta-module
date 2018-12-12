@@ -1,25 +1,20 @@
 {
-  "name": "vesta-module",
+  "name": "@vesta/module",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
-  },
+  "description": "Vesta boilerplate for creating new modules",
+  "license": "Apache-2.0",
+  "author": "hbtb <bishehsary@gmail.com>",
+  "contributors": [
+    "javadkh2 khalilian.javad@gmail.com"
+  ],
+  "dependencies": {},
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "gulp",
+    "deploy": "gulp publish"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "devDependencies": {
+    "@vesta/devmaid": "^0.4.4",
+    "gulp": "^4.0.0",
+    "typescript": "^3.2.2"
+  }
 }
