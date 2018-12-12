@@ -10,13 +10,13 @@ let pkgr = new Packager({
 });
 
 function indexer() {
-    const indexer = new Indexer("src/components");
+    const indexer = new Indexer("src");
     indexer.generate();
     return Promise.resolve();
 }
 
 function watch() {
-    gulp.watch(`src/scss/**/*`, indexer);
+    gulp.watch(`src/**/*`, indexer);
     return Promise.resolve();
 }
 
